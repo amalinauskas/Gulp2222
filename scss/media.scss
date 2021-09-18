@@ -1,0 +1,324 @@
+
+// 1150px ======================================================================
+
+@media (max-width: 1150px){
+  // PIRMAS
+  .container-1{
+    display: flex;
+    flex-direction: column;
+  }
+  .tekstas-1{
+    .logo-2{
+      margin-top: 80px;
+      font-size: 10px;
+      align-items: center;
+    }
+    p{
+      text-align: center;
+      font-size: 15px;
+    }
+  }
+  div .forma-1{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    h1{
+      color: black;
+      font-size: 15px;
+      text-align: center;
+      padding: 1px;
+    }
+    h4{
+      text-align: center;
+    }
+    .forma-tekstas{
+      margin-left: 0px;
+      margin-bottom: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 15px;
+    }
+    .mygtukas-2{
+      margin-top: 10px;
+      width: 100%;
+      height: 62px;
+      font-size: 25px;
+    }
+  }
+  // SOCIAL
+  .social-media-1{
+    text-align: center;
+      .social {
+      text-align: center;
+     letter-spacing: 10px;
+     font-size: 20px;
+     color: #E27866;
+    }
+  }
+  // ANTRAS
+  .fonas-2{
+    align-items: center;
+    justify-content: center;
+    h1{
+      font-size: 20px;
+    }
+    p{
+      font-size: 15px;
+    }
+    img{
+      display: none;
+    }
+    .darzoves-kedai-2{
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .nuotraukos-2fonas{
+    width: 0%;
+  }
+  // TRECIAS
+  .container-2{
+    flex-direction: column;
+    margin: 0px;
+    .tekstas-3am{
+      height: 300px;
+      width: 100%;
+      text-align: center;
+    }
+    .logo-3am img{
+      width: 150px;
+      height: 150px;
+    }
+    h1{
+      font-size: 20px;
+      text-align: center;
+      color: #E27866;
+    }
+    img {
+      width: 0px;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+  // KETCIRTAS
+  .fonas-4{
+    margin-top: 20px;
+    text-align: center;
+    h1{
+      font-size: 50px;
+    }
+    .container-4{
+      flex-direction: column;
+      align-items: center;
+    }
+    .design-4{
+      flex-direction: row;
+      margin-top: 50px;
+      width: 100%;
+    }
+  }
+  // PENKTAS
+  .fonas-5{
+    height: 800px;
+    .heading-5{
+      h1{
+        margin-top: 10px;
+      }
+    }
+  }
+  // SESTAS
+  .heading-6{
+    text-align: center;
+    h1{
+      font-size: 20px;
+    }
+    .chatas-6{
+      flex-direction: column;
+    }
+    .message-6{
+      flex-direction: row;
+      width: 99%;
+      padding: 5px;
+      margin: 2px;
+    }
+    .message-6:after{
+    	border: none;
+    }
+    .name-6 h6{
+      font-size: 18px;
+    }
+    .name-6 p{
+      font-size: 10px;
+      color: white;
+    }
+    .dots-6{
+      width: 0px;
+      height: 0px;
+      display: none;
+    }
+  }
+}
+
+// nuo 800px ===================================================================
+
+@media (max-width: 800px){
+  // PIRMAS
+  .container-1{
+    display: flex;
+    flex-direction: column;
+  }
+  .tekstas-1{
+    .logo-2{
+      margin-top: 80px;
+      font-size: 10px;
+      align-items: center;
+    }
+    p{
+      text-align: center;
+      font-size: 15px;
+    }
+  }
+  div .forma-1{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    h1{
+      color: black;
+      font-size: 15px;
+      text-align: center;
+      padding: 1px;
+    }
+    h4{
+      text-align: center;
+    }
+    .forma-tekstas{
+      margin-left: 0px;
+      margin-bottom: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 15px;
+    }
+    .mygtukas-2{
+      margin-top: 10px;
+      width: 100%;
+      height: 62px;
+      font-size: 25px;
+    }
+  }
+  // SOCIAL
+  .social-media-1{
+    text-align: center;
+      .social {
+      text-align: center;
+     letter-spacing: 10px;
+     font-size: 20px;
+     color: #E27866;
+    }
+  }
+  // ANTRAS
+  .fonas-2{
+    align-items: center;
+    justify-content: center;
+    h1{
+      font-size: 20px;
+    }
+    p{
+      font-size: 15px;
+    }
+    img{
+      display: none;
+    }
+    .darzoves-kedai-2{
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .nuotraukos-2fonas{
+    width: 0%;
+  }
+  // TRECIAS
+  .container-2{
+    flex-direction: column;
+    margin: 5px;
+    .tekstas-3am{
+      height: 300px;
+      width: 100%;
+      text-align: center;
+    }
+    .logo-3am img{
+      width: 150px;
+      height: 150px;
+    }
+    h1{
+      font-size: 20px;
+      text-align: center;
+      color: #E27866;
+    }
+    img {
+      width: 0px;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+  // KETCIRTAS
+  .fonas-4{
+    margin-top: 20px;
+    text-align: center;
+    h1{
+      font-size: 30px;
+    }
+    .container-4{
+      flex-direction: column;
+      align-items: center;
+    }
+    .design-4{
+      flex-direction: row;
+      margin-top: 50px;
+      width: 100%;
+    }
+  }
+  // PENKTAS
+  .fonas-5{
+    height: 1600px;
+    .heading-5{
+      h1{
+        margin-top: 10px;
+      }
+    }
+  }
+  // SESTAS
+  .heading-6{
+    text-align: center;
+    h1{
+      font-size: 20px;
+    }
+    .chatas-6{
+      flex-direction: column;
+    }
+    .message-6{
+      flex-direction: row;
+      width: 99%;
+      padding: 5px;
+      margin: 2px;
+    }
+    .message-6:after{
+    	border: none;
+    }
+    .name-6 h6{
+      font-size: 18px;
+    }
+    .name-6 p{
+      font-size: 10px;
+      color: white;
+    }
+    .dots-6{
+      width: 0px;
+      height: 0px;
+      display: none;
+    }
+  }
+}

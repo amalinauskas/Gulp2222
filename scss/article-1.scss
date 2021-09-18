@@ -1,0 +1,143 @@
+// article-1 ===================================================================
+
+.fonas-1{
+  width: 100%;
+  height: 800px;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("photo-1480714378408-67cf0d13bc1b.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 10%;
+}
+
+.container-1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tekstas-1{
+
+  img{
+    width: 200px;
+    height: 100px;
+  }
+  h1{
+    color: white;
+  }
+  .logo-2{
+    // margin-left: 300px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+  }
+  p{
+    color: white;
+    font-size: 20px;
+  }
+  .mygtukas-1{
+    width: 150px;
+    height: 40px;
+    background: none;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    letter-spacing: 1px;
+    border: 2px solid #fff;
+  }
+  .mygtukas-1:hover{
+    cursor: pointer;
+    box-shadow: 0 0 3px #fff, 0 0 5px #fff;
+  }
+}
+
+div .line{
+  width: 84px;
+  height: 22px;
+  margin-left: -4px;
+}
+
+div .forma-1{
+  width: 360px;
+  height: 425px;
+  background: white;
+  margin-top: 200px;
+  border-radius: 5px;
+  h1{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    .free{
+      color: orange;
+    }
+  }
+  h4{
+    margin-left: 42px;
+  }
+
+
+  .forma-tekstas{
+    margin-left: 42px;
+    margin-bottom: 5px;
+    padding: 20px;
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-bottom: solid 1px #8080807d;
+  }
+
+  .checkbox {
+    margin-left: 42px;
+  visibility: hidden;
+  transform: translateY(9px);
+}
+.checkbox[type='radio']:after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 15px;
+    padding: 2px;
+    top: -8px;
+    left : -2px;
+    position: relative;
+    background-clip: content-box;
+    background-color: #FFFFFF;
+    visibility: visible;
+    border: 1px solid #41D395;
+}
+
+
+
+.checkbox[type='radio']:checked:after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 15px;
+    padding: 2px;
+    top: -8px;
+    left : -2px;
+    position: relative;
+    background-color: #41D395;
+    visibility: visible;
+    border: 1px solid #41D395;
+}
+
+  .mygtukas-2{
+    margin-top: 15px;
+    width: 100%;
+    height: 78px;
+    background: #41D395;
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+  }
+  .mygtukas-2:hover{
+    background: #35b981;
+  }
+}

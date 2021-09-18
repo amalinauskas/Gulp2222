@@ -1,0 +1,20 @@
+// footer =====================================================================
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  text-align: center;
+  background: black;
+}
+
+.social-footer p{
+  letter-spacing: 80px;
+  font-size: 30px;
+  color: #E27866;
+}
+
+.copyrights-footer p{
+  color: grey;
+  font-size: 20px;
+}
